@@ -13,8 +13,7 @@ body{font:12px/1.5 Helvetica, Arial,Microsoft YaHei UI;}
 .clear{clear: both;}
 
 
-.header{width:100%;height:50px;background-color:#000;color:#fff;font-size:20px;font-family: ziti1;
-    position: fixed;opacity: 0.5; z-index:100}
+.header{width:100%;height:50px;background-color:#000;color:#fff;font-size:20px;font-family: ziti1;position: fixed;opacity: 0.5; z-index:100}
 .header .inner ul{float:left;position:relative;padding-left:105px;}
 .header .inner ul li {display:inline-block;margin-top:0;}
 .header .inner ul li:hover a{color:rgba(255,255,255,0.3);}
