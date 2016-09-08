@@ -73,7 +73,7 @@
 .weiran_main .cont_inner .main_r h3{font-weight: normal;color:#333;font-size:14px;line-height:42px;}
 
 .weiran_footer{height:50px;border-top:1px solid #ccc;background:#fff;padding:9px 0;line-height:26px;text-align: center;color:#666;}
-
+/*
 @media  screen and (max-width:1024px){
     .weiran_main .cont_inner{width:80%;}
     .weiran_main .cont_inner .main_l{width:100%;margin-bottom:20px;margin-top:70px;float:none}
@@ -81,4 +81,4 @@
 
 
 
-}
+}*/

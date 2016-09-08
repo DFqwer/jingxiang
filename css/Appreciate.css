@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
 .main{background:#f1f1f1;padding-top:50px;}
 .main .menu{height:50px; border-bottom:1px solid #d8d8d8;}
 .main .menu ul li{float:left; margin-right:20px; font-size:14px; cursor:pointer; position:relative; z-index:99;}
@@ -36,8 +35,6 @@
 .main .article ul li:hover .extra{transform:translateY(34px);}
 .main .article ul li:hover .pic span{display:block;}
 .main .article ul li:hover img{transform:translateY(10px);}
-
-/*-------------------------*/
 .bottom{ background:#222; height:160px; width:100%; padding-top:40px;}
 .bottom .inner{border-bottom:1px solid #313131; height:159px; z-index:50;}
 .bottom .wei{ width:40%; padding-right:70px; float:left; }
@@ -61,29 +58,17 @@
 .bottom .lxfs li:nth-child(3) i:hover{ background:#e05fef; color:#fff;}
 .bottom .lxfs li:nth-child(4) i:hover{ background:#00c3f4; color:#fff;}
 .bottom .lxfs li:nth-child(5) i:hover{ background:#f39c12; color:#fff;} 
-
-
 .footer{ height:40px; background:#222; width:100%; padding-top:18px; }
 .footer p{ font-size:14px; }
 .footer p span{ color:#00c3b6;}
-/*---------------------------特殊字体---------------------------------------------*/
+.page_bar { color: #999; background: #f1f1f1; text-align: center; padding: 30px 0 37px;}
+.page_bar .numer_page { display: inline-block; color: #999; height: 36px; margin-right: 3px; width: 36px; font: 13px/36px arial; text-align: center; background: #fff; box-shadow: 0 1px 1px rgba(0,0,0,0.3); border-radius:5px;}
+.page_bar .numer_page a { color: #999; }
+.page_bar .dots { background: #f1f1f1; box-shadow: none;}
+.page_bar .all_page { background: #f1f1f1; box-shadow: none; width: 52px;}
+.page_bar .to_jump { display: inline-block; height: 34px; line-height: 34px; width: 87px; border: 1px solid #d8d8d8; border-radius: 5px;}
+.page_bar .to_jump input { float: left; border-radius:5px 0 0 5px; height: 32px; width: 50px; margin-right: 1px; text-align: center; border: none; }
+.page_bar .to_jump a { color: #999; width: 36px; border-radius:0 5px 5px 0; display: inline-block; background: #fff; height: 34px;  }
+.page_bar .active,.page_bar a:hover { color: #fff; background: #00c3b6; box-shadow: none; opacity: 1; transition: all 1s; }
+.page_bar .active a { color: #fff;}
 @font-face{font-family:stylezed; src:url(../fonts/fontawesome-webfont.eot), url(../fonts/fontawesome-webfont.svg), url(../fonts/fontawesome-webfont.ttf), url(../fonts/fontawesome-webfont.woff), url(../fonts/fontawesome-webfont.woff2);}
-/*----------------------------响应式----------------------------------------------*/
-@media screen and (max-width:1260px){
-	.inner{width:96%;}
-	.main .article ul{width:960px; margin:0px auto;}
-	.main .article ul li{margin:0px 10px 30px;}
-	.main .article ul .marginRight{margin-right:10px !important;}
-}
-@media screen and (max-width:1024px){
-	.inner{width:96%;}
-	.main .article ul{width:640px; margin:0px auto;}
-	.main .article ul li{margin:0px 10px 30px;}
-	.main .article ul .marginRight{margin-right:10px !important;}
-}
-@media screen and (max-width:760px){
-	.inner{width:96%;}
-	.main .article ul{width:320px; margin:0px auto;}
-	.main .article ul li{margin:0px 10px 30px;}
-	.main .article ul .marginRight{margin-right:10px !important;}
-}
