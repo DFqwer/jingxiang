@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-.main{background:#f1f1f1;padding-top:50px;}
+.main{background:#f1f1f1;padding-top:50px;min-width:1260px;max-width:1920px;}
 .main .menu{height:50px; border-bottom:1px solid #d8d8d8;}
 .main .menu ul li{float:left; margin-right:20px; font-size:14px; cursor:pointer; position:relative; z-index:99;}
 .main .menu ul li a{display:block; width:85px; height:50px; line-height:50px; padding:0px 10px 0px 35px; position:relative;}
@@ -35,7 +35,7 @@
 .main .article ul li:hover .extra{transform:translateY(34px);}
 .main .article ul li:hover .pic span{display:block;}
 .main .article ul li:hover img{transform:translateY(10px);}
-.bottom{ background:#222; height:160px; width:100%; padding-top:40px;}
+.bottom{ background:#222; height:160px; width:100%; padding-top:40px; min-width:1260px;max-width:1920px;}
 .bottom .inner{border-bottom:1px solid #313131; height:159px; z-index:50;}
 .bottom .wei{ width:40%; padding-right:70px; float:left; }
 .bottom .wei h3{ line-height:36px; font-size:16px; color:#b2b2b2;} 
@@ -58,7 +58,7 @@
 .bottom .lxfs li:nth-child(3) i:hover{ background:#e05fef; color:#fff;}
 .bottom .lxfs li:nth-child(4) i:hover{ background:#00c3f4; color:#fff;}
 .bottom .lxfs li:nth-child(5) i:hover{ background:#f39c12; color:#fff;} 
-.footer{ height:40px; background:#222; width:100%; padding-top:18px; }
+.footer{ height:40px; background:#222; width:100%; padding-top:18px; min-width:1260px;max-width:1920px;}
 .footer p{ font-size:14px; }
 .footer p span{ color:#00c3b6;}
 .page_bar { color: #999; background: #f1f1f1; text-align: center; padding: 30px 0 37px;}
